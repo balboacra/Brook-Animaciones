@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.3rem;
+    color: #333;
+    background-color: white;
+}
+
+body {
+    background-image: url(img/Brook/imagen\ header.jpg);
+    background-size: cover;
+}
+
+#container {
+    padding: 0.5rem;
+    background-color: rgb(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container img {
+    width: 100px;
+    height: auto;
+    padding: 0;
+}
+
+#container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    padding: 1.3rem;
+    text-align: center;
+}
+
+li {
+    font-size: 16px;
+    margin: 0.5rem;
+    padding: 0.1rem 0.5rem;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul li a {
+    color: white;
+}
+#carrusel {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    grid-area: carrusel;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 16px;
+    font-size: medium;
+    background-color: rgb(0, 0, 0, 0.75);
+    grid-area: footer;
+}
+
+footer a {
+    color: white;
+    padding: 0.5rem;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nosotros {
+    display: grid;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    font-size: 2em;
+}
+
+.imgquienes {
+    height: 25rem;
+    width: 35rem;
+    padding: 2rem 4rem;
+    margin: 1rem;
+    border: 1px;
+    border-style: groove ridge;
+}
+
+.contenido1 {
+    line-height: 1.5rem;
+    padding: 2rem 4rem;
+    margin: 1rem;
+    text-align: justify;
+    height: 25rem;
+    width: 35rem;
+    color: white;
+    border: 1px;
+    border-style: groove ridge;
+}
+
+section p {
+    text-align: left;
+}
+
+.nosotros2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido2 {
+    line-height: 1.5rem;
+    text-align: center;
+    color: white;
+    border: 1px;
+    border-style: groove ridge;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+iframe {
+    width: 1000px;
+    padding: 1rem;
+}
+
+h2 {
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    border: 2px 0px;
+    border-style: groove ridge;
+}
+
+#estilos p {
+    border: 1px white solid;
+    text-align: justify;
+    width: 600px;
+}
+
+.trad-individual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tradicionales h2 {
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    width: 200px;
+}
+
+.trad-estacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.estacion h2 {
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    width: 200px;
+}
+
+.imgtrad {
+    width: 210px;
+    height: 300px;
+    padding: 1rem;
+}
+
+.imgestacion {
+    width: 210px;
+    height: 300px;
+    padding: 1rem;
+}
+
+.estilo {
+    color: white;
+    font-size: 1em;
+    width: 300px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+form {
+    margin: 0 auto;
+    border-radius: 3px;
+    width: 300px;
+    background-color: beige;
+    opacity: 80%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.field {
+    border-radius: 3px;
+    border: 1px #333;
+    border-style: solid;
+    padding: 5px;
+    width: 290px;
+}
+
+div#tienda {
+    background-image: url(img/Brook/Img\ Tienda.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 80%;
+    margin: 2rem 0rem;
+    padding: 2rem;
+}
+
+.h1tienda {
+    font-size: 150px;
+    color: #333;
+}
+
+div#imgtienda {
+    display: inline-block;
+    background-color: white;
+    opacity: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.imgtienda {
+    height: 150px;
+    width: auto;
+    line-height: 30px;
+    margin: 0 auto;
+}
