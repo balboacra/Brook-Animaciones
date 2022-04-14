@@ -52,6 +52,12 @@ ul ul {
 ul li a {
     color: white;
 }
+
+.scale:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 #carrusel {
     display: flex;
     justify-content: center;
@@ -102,6 +108,11 @@ h1 {
     border-style: groove ridge;
 }
 
+.transform:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
 .contenido1 {
     line-height: 1.5rem;
     padding: 2rem 4rem;
@@ -140,8 +151,9 @@ section p {
     justify-content: center;
 }
 iframe {
-    width: 1000px;
+    width: 80%;
     padding: 1rem;
+    margin: auto;
 }
 
 h2 {
@@ -210,6 +222,10 @@ h2 {
     margin: 0.5rem;
 }
 
+.scale2:hover {
+    transition: 1s;
+    transform: scale(2);
+}
 form {
     margin: 0 auto;
     border-radius: 3px;
